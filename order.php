@@ -26,7 +26,7 @@
 
 					$fname = $_GET['fname'];
 					$lname = $_GET['lname'];
-					echo('<h5>Thank you for choosing us, '.$fname.'+ '.$lname.'!</h5>');
+					echo('<h5>Thank you for choosing us, '.$fname.' '.$lname.'!</h5>');
 
 					$phone = $_GET['phone'];
 					echo('<h5>If needed, we will contact you on '.$phone.'.</h5>');		
