@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+/* Font1 config */
+@font-face {
+	font-family: 'JosefinSans';
+	src: url('JosefinSans-VariableFont_wght.ttf') format('truetype');
+} 
+
+/* Font2 config */
+@font-face {
+	font-family: 'OpenSauceSans';
+	src: url('OpenSauceSans-Light.ttf') format('truetype');
+}
+
+
+/* Header -----------------------------------------------------------------*/
+header {
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(229, 229, 229);
+	margin: 20px;
+	min-width: 900px;
+	width: 1024px;
+	height: 150px;
+	text-align: center;
+	background-image: url(header-pizza.png);
+	vertical-align: middle;
+    display: table-cell;
+}
+
+/* Body -----------------------------------------------------------------*/
+body {
+	margin: 0 auto;
+	max-width: 1024px;
+	background-color: rgb(221, 221, 219);
+	padding: 15px 30px 15px;
+}
+
+/* Main -----------------------------------------------------------------*/
+main {
+	border:none;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+	min-width: 900px;
+	padding: 40px;
+	margin-top: 20px;
+}
+
+/* Article -----------------------------------------------------------------*/
+article{
+	border: 1px solid rgb(215, 214, 214);
+	margin: 20px;
+	padding: 10px 20px 30px 20px;
+}
+
+#orderArt{
+	border: none;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px 0;
+}
+
+/* Others -----------------------------------------------------------------*/
+fieldset{
+	border: none;
+}
+
+#morepizza, a{
+	background-color:rgb(32, 97, 34);
+	border: none;
+	color: white;
+	padding: 30px 0;
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+	font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
+	margin:20px 150px;
+}
+
+/* input -----------------------------------------------------------------*/
+input[type="reset"]{
+	background-color: rgb(221, 221, 219);
+	border: none;
+	color: rgb(37, 37, 37);
+	padding: 7px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+	font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
+	margin-left: 10px;
+}
+
+input[type="submit"]{
+	background-color:rgb(32, 97, 34);
+	border: none;
+	color: white;
+	padding: 18px 36px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
+	margin-left: 20px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	margin: 10px 0 30px 20px;
+	font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+input[type="number"]{
+	margin: 10px 0 10px 0;
+	font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 15px;
+	width: 40px;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="date"]{
+	margin: 10px 0 10px 0;
+	font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 15px;
+	width: 180px;
+}
+
+input[id="instruct"]{
+	margin: 10px 0 10px 0;
+	font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 50px;
+	width: 500px;
+	padding-top: 0%;
+}
+
+/* Font -----------------------------------------------------------------*/
+p{
+	font-family: 'OpenSauceSans', Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+h1{
+	color: rgb(32, 97, 34);
+	font-size: 20pt;
+	font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
+	text-align:center;
+	padding: 5px 0;
+}
+
+h2{
+	color: rgb(170, 170, 170);
+	font-size: 12pt;
+	font-family: 'OpenSauceSans', Arial, Helvetica, sans-serif;
+	text-align:center;
+	line-height: 0.4;
+}
+
+h3{
+	color:rgb(32, 97, 34);
+	font-size: 14pt;
+	font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding: 5px 0;
+}
+
+h4, legend{
+	color:rgb(139, 139, 139);
+	font-size: 11pt;
+	font-family: 'OpenSauceSans', Arial, Helvetica, sans-serif;
+	text-align:left;
+	line-height: 2;
+}
+
+h5{
+	color:rgb(139, 139, 139);
+	font-size: 11pt;
+	font-family: 'OpenSauceSans', Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+#h1header {
+	font-size: 28pt;
+	color: rgb(216, 31, 31);
+	font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
+	text-align:center;
+	line-height: 0.4;
+}
+
+#h2header {
+	font-size: 12pt;
+	color: rgb(212, 213, 212);
+	font-family: 'OpenSauceSans', Arial, Helvetica, sans-serif;
+	text-align:center;
+	line-height: 0.4;
+}
