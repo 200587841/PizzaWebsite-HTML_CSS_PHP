@@ -121,7 +121,7 @@
 						<br>
 
 						<label for="phone">Phone Number: </label>
-						<input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+						<input type="tel" id="phone" name="phone" placeholder="123456789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
 						<label for="emailAddress">Email Address: </label>
 						<input type="email" name="emailAddress" id="emailAddress" placeholder="usuario@email.com" required>
 						<br>
